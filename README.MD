@@ -1,5 +1,4 @@
-
-/home/nagesh/Downloads/275337812-9a131993-315c-4406-80fb-0da36370b966.png
+https://user-images.githubusercontent.com/119600435/276284590-12286728-4091-4cc1-8845-a06973c6116c.png
 ##### This Repository Guides you to complete the RISC-V-BASED MYTH Course Assignments - Guided by Kunal Ghosh
 
 # Table of contents
