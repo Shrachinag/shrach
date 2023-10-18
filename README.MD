@@ -1,5 +1,5 @@
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/9a131993-315c-4406-80fb-0da36370b966)
 
+/home/nagesh/Downloads/275337812-9a131993-315c-4406-80fb-0da36370b966.png
 ##### This Repository Guides you to complete the RISC-V-BASED MYTH Course Assignments - Guided by Kunal Ghosh
 
 # Table of contents
@@ -12,8 +12,7 @@
 
 #### Task-1 : Logic Gates
 
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/24cfbcd8-3ff2-4cae-b4fa-488e5c77af5c)
-
+file:///home/nagesh/Downloads/275326836-24cfbcd8-3ff2-4cae-b4fa-488e5c77af5c.png
 #### Task-2 : Lab - Makerchip platfrom
 To use Makerchip IDE, you need to visit makerchip website at [http://makerchip.com/](http://makerchip.com/) and launch Makerchip IDE
 To access a specific example, please follow these steps:
@@ -21,11 +20,11 @@ To access a specific example, please follow these steps:
 2) **Click on 'Examples'**
 3) **Load 'FGPA Multiplier' Example**
 
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/b7008e12-b9dc-4dbb-a7f2-fcdf84facfd9)
+
 
 4) **Load FGPA Multiplier Example**
 
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/6a9a1ac2-de7f-4402-b979-c77ab2911faf)
+!file:///home/nagesh/Downloads/275351732-7a013f50-0de4-4e51-99ae-61950c45ec13.png
 
 #### Task-3 : Lab - Combitional logic
 **A) Inverter**
@@ -33,8 +32,7 @@ To access a specific example, please follow these steps:
 2) **Load Default Template**
 3) **Go to editor and make changes(On line 16,in place of `//...` type `$out = ! $in;`)**
 4) **Compile(Ctrl+E)**
-
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/bc069194-ee10-400a-8a1f-c86a3424ae10)
+/home/nagesh/Downloads/275329174-bc069194-ee10-400a-8a1f-c86a3424ae10.png
 
 **B) XOR Gate**
 1) **Click on 'Examples'**
@@ -45,7 +43,7 @@ $out = ! $in;
 $out1 = ($in1 ^ $in2);
 ```
 4) **Compile(Ctrl+E)**
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/0d8f1e78-5e59-45a7-ac5c-ff1cefa75dcb)
+/home/nagesh/Downloads/275329500-0d8f1e78-5e59-45a7-ac5c-ff1cefa75dcb.png
 
 **C) Vectors**
 1) **Click on 'Examples'**
@@ -55,8 +53,7 @@ $out1 = ($in1 ^ $in2);
 $out[4:0] = $in1[3:0] + $in2[3:0];
 ```
 4) **Compile(Ctrl+E)**
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/2271ebb8-9c56-427b-899f-c3bea738496c)
-
+/home/nagesh/Downloads/275329739-2271ebb8-9c56-427b-899f-c3bea738496c.png
 **D) Mux without vector & with vectors**
 1) **Click on 'Examples'**
 2) **Load Default Template**
@@ -66,14 +63,13 @@ $out[4:0] = $in1[3:0] + $in2[3:0];
 $out = $sel ? $in1 : $in2;
 ```
 4a) **Compile(Ctrl+E)**
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/a6420afc-2c40-4e8c-890c-c1d5f24d8e6b)
-
+/home/nagesh/Downloads/275329972-a6420afc-2c40-4e8c-890c-c1d5f24d8e6b.png
 3b) **Go to editor and make changes**
 ```
 $out[7:0] = $sel ? $in1[7:0] : $in2[7:0];
 ```
 4b) **Compile(Ctrl+E)**
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/b97722f5-73ac-4c4b-ac02-0a4e04ce1220)
+/home/nagesh/Downloads/275330103-b97722f5-73ac-4c4b-ac02-0a4e04ce1220.png
 
 **E) Simple Claculator**
 1) **Click on 'Examples'**
@@ -89,11 +85,9 @@ $qut[31:0] = $val1 / $val2;
 $out[31:0] = $op[1] ? ($op[0] ? $qut: $prod): ($op [0] ? $diff: $sum);
 ```
 4) **Compile(Ctrl+E)**
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/0cb6dd50-4cea-420b-9287-e160c143e42b)
-
+/home/nagesh/Pictures/Screenshots/m/275331304-0cb6dd50-4cea-420b-9287-e160c143e42b.png
 #### Task-4 : Sequential logic 
-
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/0d548af2-e42f-48fd-9a33-fe47df3775fb)
+/home/nagesh/Pictures/Screenshots/m/Screenshot from 2023-10-17 21-48-20.png
 
 **A) Fibonacci series**
 1) **Click on 'Examples'**
@@ -103,8 +97,7 @@ $out[31:0] = $op[1] ? ($op[0] ? $qut: $prod): ($op [0] ? $diff: $sum);
 $fib[31:0] = $reset ? 1 : (>>1$fib + >>2$fib); 
 ```
 4) **Compile(Ctrl+E)**
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/0fe24200-ccfd-4d99-9c40-83ecb6dc277c)
-
+/home/nagesh/Pictures/Screenshots/m/275332018-0fe24200-ccfd-4d99-9c40-83ecb6dc277c.png
 **B) Up-Counter**
 1) **Click on 'Examples'**
 2) **Load Default Template**   
@@ -113,8 +106,7 @@ $fib[31:0] = $reset ? 1 : (>>1$fib + >>2$fib);
 $num[2:0] = $reset ? 0 : (>>1$num + 1); 
 ```
 4) **Compile(Ctrl+E)**
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/272b36d5-3abc-467b-9fac-2494ab5d338e)
-
+/home/nagesh/Pictures/Screenshots/m/275332175-272b36d5-3abc-467b-9fac-2494ab5d338e.png
 **C) Sequential Calculator**
 1) **Click on 'Examples'**
 2) **Load Default Template**   
@@ -129,8 +121,7 @@ $qut[31:0] = $val1 / $val2;
 $out[31:0] = $op[1] ? ($op[0] ? $qut: $prod): ($op [0] ? $diff: $sum); 
 ```
 4) **Compile(Ctrl+E)**
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/a97fcc7c-1ed6-48e2-b1c9-b46d89637dce)
-
+/home/nagesh/Pictures/Screenshots/m/275332565-a97fcc7c-1ed6-48e2-b1c9-b46d89637dce.png
 #### Task-5 : Pipelined logic
 **A) A simple pipeline through Pythagorean example**
 1) **Click on 'Examples'**
@@ -148,8 +139,7 @@ $out[31:0] = $op[1] ? ($op[0] ? $qut: $prod): ($op [0] ? $diff: $sum);
          $cc[31:0] = sqrt($cc_sq);
 ```
 4) **Compile(Ctrl+E)**
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/5ae27b57-c976-4ceb-b43f-995619ac538e)
-
+/home/nagesh/Pictures/Screenshots/m/275333418-5ae27b57-c976-4ceb-b43f-995619ac538e.png
 **B) Pipeline Implementation**
 1) **Click on 'Examples'**
 2) **Load Default Template**
@@ -164,8 +154,7 @@ $out[31:0] = $op[1] ? ($op[0] ? $qut: $prod): ($op [0] ? $diff: $sum);
          $err3 = $div_by_zero || $err2;
 ```
 4) **Compile(Ctrl+E)**
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/1c1d7113-0145-4e71-89d1-76731062eaa9)
-
+/home/nagesh/Pictures/Screenshots/m/275334218-1c1d7113-0145-4e71-89d1-76731062eaa9.png
 
 #### Task-6 : Validity
 + Easier debug
@@ -204,8 +193,7 @@ $out[31:0] = $op[1] ? ($op[0] ? $qut: $prod): ($op [0] ? $diff: $sum);
                                               $qut ;
 ```
 4) **Compile(Ctrl+E)**
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/bd992f12-ba84-4ca9-8460-4f0c94ef1576)
-
+/home/nagesh/Pictures/Screenshots/m/275336245-bd992f12-ba84-4ca9-8460-4f0c94ef1576.png
 **B) Distance Calculator**
 1) **Click on 'Examples'**
 2) **Load Default Template**
@@ -230,8 +218,7 @@ $out[31:0] = $op[1] ? ($op[0] ? $qut: $prod): ($op [0] ? $diff: $sum);
                      >>1$total_distance;
 ```
 4) **Compile(Ctrl+E)**
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/bca945ee-92ae-4e31-a81c-a30536b50caf)
-
+/home/nagesh/Pictures/Screenshots/m/275337067-bca945ee-92ae-4e31-a81c-a30536b50caf.png
 **A) Calulator Memory**
 1) **Click on 'Examples'**
 2) **Load Default Template**
@@ -267,8 +254,7 @@ $out[31:0] = $op[1] ? ($op[0] ? $qut: $prod): ($op [0] ? $diff: $sum);
                       ($op[2:0] == 3'b100) ? >>2$mem : >>2$out ;
 ```
 4) **Compile(Ctrl+E)**
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/7062601b-e0a7-4e9e-80c7-2d34a7a62abc)
-
+/home/nagesh/Pictures/Screenshots/m/275337485-7062601b-e0a7-4e9e-80c7-2d34a7a62abc.png
 [Back to Top](#top)
 
 </details>
@@ -279,8 +265,7 @@ $out[31:0] = $op[1] ? ($op[0] ? $qut: $prod): ($op [0] ? $diff: $sum);
 
 # RISC-V Architecture Block Diagram
 
-![image](https://github.com/Pavan2280/RISC-V/assets/131603225/1695d5f6-eab9-4279-9419-b2817800b002)
-
+/home/nagesh/Pictures/Screenshots/m/275347194-1695d5f6-eab9-4279-9419-b2817800b002.png
 ## Overview
 This RISC-V Architecture Block Diagram illustrates the fundamental components and their interactions within a computer system based on the RISC-V instruction set architecture. RISC-V is a modular and customizable architecture, providing a versatile framework for designing processors tailored to specific application requirements.
 
