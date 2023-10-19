@@ -1,5 +1,5 @@
-
-# iiitb_aclock -> Implementation of an Alarm Clock in Verilog
+https://user-images.githubusercontent.com/119600435/276513277-a177f60c-9524-4cb1-bd9f-7b8eac2d3048.png# 
+iiitb_aclock -> Implementation of an Alarm Clock in Verilog
 This project carries out the design and development of a fully implementable Verilog code of a working digital
 alarm clock synthesizable for FPGA. Basic Verilog HDL syntax is
 used for the implementation of this digital design and a testbench
@@ -10,7 +10,7 @@ and the GTKWave toolkit.
 This design aims to apply the Verilog language into the
 development of a simple mechanism of a digital alarm clock. The block diagram for the proposed design is shown below:
 
-![Alt text](blockdiagram.png?raw=true "Block Diagram")
+https://user-images.githubusercontent.com/119600435/276513277-a177f60c-9524-4cb1-bd9f-7b8eac2d3048.png
 
 This implementation of a digital clock includes a multiple
 features enabling resetting the clock, setting up an alarm for
@@ -51,8 +51,7 @@ The testing proceeds as follows – Initially, the time is set to
 10 : 14. After 1 second, an alarm is set at the time 10 : 20.
 The alarm goes off at the set time of 10 : 20 as seen from the
 figure:
-
-![Alt text](graph.png?raw=true "Graph")
+https://user-images.githubusercontent.com/119600435/276504793-169057e5-1d8f-4638-84a3-2a9951b7122b.png
 
 The alarm is then turned off after 1 second and the
 clock-time is reset to 04 : 45. Next, another alarm is set to
@@ -96,10 +95,8 @@ $   yosys -s yosys_run.sh
 ```
 Upon entering this command, the synthesis procedure takes place and a new file `iiitb_aclock_synth.v` is created. Also, in the terminal the number and types of cells are printed and the schematic diagram for the design is generated and shown in the Dot Viewer. 
 
-![Alt text](img1.png?raw=true "Statistics(1)")
-![Alt text](img2.png?raw=true "Statistics(2)")
-
-As the schematic is very detailed no image could be included to represent it accurately, therefore, the file `output.dot` is provided along with the code and can be viewed with the Dot Viewer.
+https://github.com/Shrachinag/shrach/issues/4#issuecomment-1770179622
+https://user-images.githubusercontent.com/119600435/276516921-1c33c2d9-2c04-465d-a921-18c44ff30e86.pngAs the schematic is very detailed no image could be included to represent it accurately, therefore, the file `output.dot` is provided along with the code and can be viewed with the Dot Viewer.
 
 ## Gate Level Simulation (GLS)
 Gate level Simulation(GLS) is done at the late level of Design cycle. This is run after the RTL code is synthesized into Netlist. Netlist is translation from RTL into Gates and connection wirings with full functional and timing behaviour.
@@ -110,7 +107,7 @@ $ iverilog -DFUNCTIONAL -DUNIT_DELAY=#1 ./verilog_model/primitives.v ./verilog_m
 $ ./a.out
 $ gtkwave test.vcd
 ```
-![Alt text](graph2.png?raw=true "Statistics(2)")
+https://user-images.githubusercontent.com/119600435/276504947-1a2d04b3-da50-46cd-8808-6ec1c5639e41.png
 
 ## Layout
 ### Installation of required tools
@@ -176,9 +173,8 @@ $   magic -T sky130A.tech sky130_inv.mag
 ```
 The following Magic windows should appear:
 
-![Alt text](asic_img/asic1.png?raw=true "Magic Viewport")
-![Alt text](asic_img/asic2.png?raw=true "TCL console")
-
+https://user-images.githubusercontent.com/119600435/276505021-4a76f100-4ce2-4fff-b44d-2c6d78db5e38.png
+https://user-images.githubusercontent.com/119600435/276505068-80cc6e51-2a89-4395-b109-b8345fcb9864.png
 Now, to simulate the inverter, we need to generate a Spice netlist corresponding to the .mag file. We do this by typing the following commands into the newly opened TCL console.
 ```
 %   extract all
@@ -230,14 +226,13 @@ $   ngspice sky130_inv.spice
 
 ```
 
-![Alt text](asic_img/asic4.png?raw=true "Terminal commands")
-
+https://user-images.githubusercontent.com/119600435/276520524-feabeb67-9d89-422c-b6c8-2f28b0928862.png
 And then type the following in the ngspice terminal to plot the inverter characteristics:
 ```
 ngspice 1 -> plot y vs time a
 ```
 
-![Alt text](asic_img/asic3.png?raw=true "Inverter plots")
+https://user-images.githubusercontent.com/119600435/276507828-b878a093-99f6-4e73-9f57-343312e3d6d5.png
 
 To ensure the correct placement of ports and to check if they lie on the intersection of tracks of the corresponding metal, we need to draw a grid over the layout. To do this, use the below command in the TCL console.
 ```
@@ -246,8 +241,7 @@ To ensure the correct placement of ports and to check if they lie on the interse
 
 Then, the Magic viewport will look as follows:
 
-![Alt text](asic_img/asic5.png?raw=true "Inverter plots")
-
+https://user-images.githubusercontent.com/119600435/276507899-73ece6d8-8a8b-47c6-a00a-48145c933feb.png
 Now to save the new .mag file, save it with a different name:
 ```
 %   save sky130_vsdinv.mag
@@ -329,10 +323,8 @@ Run the synthesis command on the TCL console:
 ```
 On running this command, check the `/runs` folder and search for the .stat.rpt file which reports the synthesis statistics.
 
-![Alt text](asic_img/asic6.png?raw=true "Synthesis")
-
+https://user-images.githubusercontent.com/119600435/276508000-82f64143-f057-408e-b0cb-74b16aef7658.png
 The Hold slack and statistics of used gates will be displayed in the `2-sta.log` file:
 
-![Alt text](asic_img/asic7.png?raw=true "Slack")
-
+https://user-images.githubusercontent.com/119600435/276508060-1ae2f85f-7020-4163-a588-02408f93eba9.png
 
